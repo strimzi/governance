@@ -21,9 +21,9 @@ After 6 months a maintainer will be given "Admin" access to the Strimzi reposito
 
 ### Component owners
 
-The component owners are responsible for development of a specific subproject or components within Strimzi.
+The component owners are responsible for development of a specific subproject or component within Strimzi.
 Such components might be represented by by a separate GitHub repository within the Strimzi organization (e.g. `strimzi-kafka-bridge`) or by a subdirectory in a GitHub repository (e.g. `./documentation/` in `strimzi-kafka-operator`).
-The components owners are identified in the [`COMPOENENT-OWNERS`](COMPONENT-OWNERS) file in this repository which also includes the component for which they are responsible.
+The components owners are identified in the [`COMPONENT-OWNERS`](COMPONENT-OWNERS) file in this repository which also includes the component for which they are responsible.
 Additionally, each of the components will have `OWNERS` file in its root listing the owners.
 
 By definition, every maintainer is also owner for all components and does not have to be mentioned in the `OWNERS` list.
@@ -35,7 +35,7 @@ Component owners can be removed by a ⅔ majority maintainers vote.
 
 #### Github Project Administration
 
-Owners of components which have their own GitHub repository will get commit rights for given GitHub repository.
+Owners of components which have their own GitHub repository will get "Write" rights for given GitHub repository and will be able to merge approved PRs.
 
 ## Voting
 
