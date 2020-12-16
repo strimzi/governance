@@ -10,6 +10,7 @@ This repository contains the governance documents for the Strimzi project:
 * [List of Maintainers](./MAINTAINERS)
 * [Code of Conduct](./CODE_OF_CONDUCT.md)
 * [License](./LICENSE)
+* [Security Policy](./SECURITY.md)
 
 ---
 
