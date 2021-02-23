@@ -1,19 +1,23 @@
 # https://github.com/strimzi/strimzi-kafka-operator/documentation
 
 Paul Mellor, Red Hat <pmellor@redhat.com> (@PaulRMellor)
+Daniel Laing, Red Hat <dlaing@redhat.com> (@laidan6000)
 
 # https://github.com/strimzi/strimzi-kafka-operator/systemtest
 
 Maroš Orsák, Red Hat <xorsak02@stud.fit.vutbr.cz> (@see-quick)
+Lukáš Král, Red Hat <lukywill16@gmail.com> (@im-konge)
 
 # https://github.com/strimzi/strimzi-kafka-oauth
 
 Marko Strukelj, Red Hat <marko.strukelj@gmail.com> (@mstruk)
 
-# https://github.com/strimzi/strimzi-kafka-bridge
-
-Stanislav Knot, Red Hat <sknot@redhat.com> (@stanlyDoge)
-
 # https://github.com/strimzi/strimzi-ui
 
 Matthew Chirgwin, IBM <chirmatt@uk.ibm.com> (@matthew-chirgwin)
+
+# https://github.com/strimzi/topic-encryption
+
+Chris Giblin, IBM <cgi@zurich.ibm.com> (@chris-giblin)
+Sean Rooney, IBM <sro@zurich.ibm.com> (@SeanRooooney)
+Pascal Vetsch, IBM <vep@zurich.ibm.com> (@zrlvep)
