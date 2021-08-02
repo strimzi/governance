@@ -67,7 +67,7 @@ _(Inspired by [Apache Software Foundation voting](https://www.apache.org/foundat
 
 Votes from maintainers are binding and count towards the approval of the proposal.
 Non-maintainers are allowed and encouraged to vote as well.
-But their votes are non-binding and do not count towards approval or the proposal.
+But their votes are non-binding and do not count towards approval of the proposal.
 
 +1 votes can be expressed by approving the proposal PR or in the comments.
 Other votes should be expressed in the comments.
@@ -84,4 +84,3 @@ All changes in Governance require a ⅔ majority maintainers vote.
 
 Unless specified above, all other changes to the project require a ⅔ majority maintainers vote.
 Additionally, any maintainer may request that any change require a ⅔ majority maintainers vote.
-
