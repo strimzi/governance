@@ -65,9 +65,15 @@ Voting about proposals is using +1, 0, -1 votes and their fractions, where:
 
 _(Inspired by [Apache Software Foundation voting](https://www.apache.org/foundation/voting.html#expressing-votes-1-0-1-and-fractions))_
 
-Proposals are approved when they receive at least three +1 votes from maintainers and no -1 votes from maintainers.
+Votes from maintainers are binding and count towards the approval of the proposal.
+Non-maintainers are allowed and encouraged to vote as well.
+But their votes are non-binding and do not count towards approval or the proposal.
+
 +1 votes can be expressed by approving the proposal PR or in the comments.
 Other votes should be expressed in the comments.
+For example "+1 (binding)", or for a non-maintainer "+1 (non-binding)".
+
+Proposals are approved when they receive at least three +1 binding votes and no -1 binding votes.
 The proposal PR should be opened for at least 3 days to give everyone enough time to vote.
 
 ### Changes in Governance
