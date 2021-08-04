@@ -57,7 +57,24 @@ If the PR author is a maintainer or an owner of given component, this counts as 
 
 Proposals can be opened against the [proposals repository](https://github.com/strimzi/proposals).
 Proposals should cover any changes to the Strimzi project which might significantly impact its users or the project direction.
-Proposals are approved by a ⅔ majority maintainers vote.
+
+Voting about proposals is using +1, 0, -1 votes and their fractions, where:
+* +1 means "yes"
+* -1 means "no"
+* The numbers between +1 and -1 indicate how strongly you feel about the proposal
+
+_(Inspired by [Apache Software Foundation voting](https://www.apache.org/foundation/voting.html#expressing-votes-1-0-1-and-fractions))_
+
+Votes from maintainers are binding and count towards the approval of the proposal.
+Non-maintainers are allowed and encouraged to vote as well.
+But their votes are non-binding and do not count towards approval of the proposal.
+
++1 votes can be expressed by approving the proposal PR or in the comments.
+Other votes should be expressed in the comments.
+For example "+1 (binding)", or for a non-maintainer "+1 (non-binding)".
+
+Proposals are approved when they receive at least three +1 binding votes and no -1 binding votes.
+The proposal PR should be opened for at least 3 days to give everyone enough time to vote.
 
 ### Changes in Governance
 
@@ -67,4 +84,3 @@ All changes in Governance require a ⅔ majority maintainers vote.
 
 Unless specified above, all other changes to the project require a ⅔ majority maintainers vote.
 Additionally, any maintainer may request that any change require a ⅔ majority maintainers vote.
-
