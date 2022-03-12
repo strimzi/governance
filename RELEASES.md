@@ -8,13 +8,19 @@ Strimzi uses [semantic versioning](https://semver.org/) as a versioning schema f
 
 Strimzi is using a release schedule of 1 or 2 months for the "core" component, the cluster operator.
 The [GitHub milestones](https://github.com/strimzi/strimzi-kafka-operator/milestones) are used to track the features and bug fixes included in each release.
+There is also a [roadmap](https://github.com/orgs/strimzi/projects/1) to describe the features that will be available in the future releases.
 
-The other components, under the Strimzi umbrella, don't have a specific release cycle but when having a new releases is decided on a case-by-case basis depending on the new features added, bugs and vulnerabilities fixed.
+The other components, under the Strimzi umbrella, are released on a case-by-case basis depending on the new features added, bugs and vulnerabilities fixed.
 
 ## Release Process
 
 Most of the Strimzi components have a corresponding documentation about how to make a new release.
 For example, the release process for the cluster operator is described [here](https://github.com/strimzi/strimzi-kafka-operator/blob/main/development-docs/RELEASE.md).
+
+Before an official release, at least one Release Candidate (RC) is built for testing.
+More RCs can follow the first one if new bugs are found along the way.
+The Release Candidates are announced on the Slack channel and Strimzi user CNCF mailing list, so that the community can test before the final release.
+The maintainers provides 2-3 days to the community for testing and, if no objections are raised, the final release is announced.
 
 ## Keeping Track Of Changes
 
