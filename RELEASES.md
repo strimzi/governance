@@ -2,15 +2,16 @@
 
 This document describes how Strimzi handles versioning, releases new versions and communicates about them.
 
-Strimzi uses [semantic versioning](https://semver.org/) as a versioning schema for the releases of all the components.
+All Strimzi component releases use [semantic versioning](https://semver.org/).
 
 ## Release Cycle
 
-Strimzi is using a release schedule of 1 or 2 months for the "core" component, the cluster operator.
+Strimzi uses a 1–2 month release schedule for the "core" operators component.
 The [GitHub milestones](https://github.com/strimzi/strimzi-kafka-operator/milestones) are used to track the features and bug fixes included in each release.
 There is also a [roadmap](https://github.com/orgs/strimzi/projects/1) to describe the features that will be available in the future releases.
 
-The other components, under the Strimzi umbrella, are released on a case-by-case basis depending on the new features added, bugs and vulnerabilities fixed.
+Other Strimzi components don't have a specific release cycle.
+New releases are decided on a case-by-case basis depending on the new features added, bugs and vulnerabilities fixed.
 
 ## Release Process
 
@@ -42,14 +43,14 @@ Another way to be notified is by [watching](https://docs.github.com/en/github/ma
 
 ## Removing Features, Breaking Changes, Deprecations and Feature Gates
 
-When there is an API deprecation, because it is going to be replaced by a new one, it is announced in the coming release changelog. 
+When there is an API deprecation (with or without a replacement) it is announced in the coming release changelog. 
 We define a plan about when that API will be completely removed in the future giving the users enough time and the steps needed to adopt the new one.
 
-New features could be added through the so called "feature gates".
+New features may be added through [feature gates](https://github.com/strimzi/proposals/blob/main/022-feature-gates.md).
 It means that the feature is disabled by default at the beginning but users can start trying it by enabling the corresponding gate.
 Even in this case, we describe the plan about when that feature will be enabled by default and removed from the "feature gate".
 
 ## Apache Kafka Support
 
 On each new Strimzi cluster operator release, it is not feasible to maintain support for all the available Apache Kafka versions.
-There is a well defined plan for supported Apache Kafka versions you can read [here](https://github.com/strimzi/strimzi-kafka-operator/blob/main/KAFKA_VERSION_SUPPORT.md).
+There is a well-defined plan for supported Apache Kafka versions you can read [here](https://github.com/strimzi/strimzi-kafka-operator/blob/main/KAFKA_VERSION_SUPPORT.md).
