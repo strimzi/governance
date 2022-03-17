@@ -15,7 +15,7 @@ New releases are decided on a case-by-case basis depending on the new features a
 
 ## Release Process
 
-Most of the Strimzi components have a corresponding documentation about how to make a new release.
+Most of the Strimzi components have documentation about how to make a new release.
 For example, the release process for the cluster operator is described [here](https://github.com/strimzi/strimzi-kafka-operator/blob/main/development-docs/RELEASE.md).
 
 Before an official release, at least one Release Candidate (RC) is built for testing.
@@ -45,6 +45,8 @@ Another way to be notified is by [watching](https://docs.github.com/en/github/ma
 
 When there is an API deprecation (with or without a replacement) it is announced in the coming release changelog. 
 We define a plan about when that API will be completely removed in the future giving the users enough time and the steps needed to adopt the new one.
+By API it would mean the Custom Resources schemas and configuration for "core" operators, OpenAPI definition for the HTTP bridge or configuration for the OAuth component.
+The notice period between deprecation and removal is defined on a case-by-case basis as part of the proposal or PR that deprecates an API.
 
 New features may be added through [feature gates](https://github.com/strimzi/proposals/blob/main/022-feature-gates.md).
 It means that the feature is disabled by default at the beginning but users can start trying it by enabling the corresponding gate.
