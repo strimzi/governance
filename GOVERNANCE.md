@@ -14,6 +14,26 @@ The maintainers are identified in the [`MAINTAINERS`](MAINTAINERS) file.
 New maintainers are proposed by an existing maintainer and are elected by a ⅔ majority maintainers vote.
 Maintainers can be removed by a ⅔ majority maintainers vote.
 
+So as to be transparent and to ensure that all potential maintainers are judged fairly and consistently the following criteria should be taken into account in electing new maintainers:
+
+* Sustained contributions over at least 3 months ideally including non-trivial PRs.
+* An area of developing expertise. This includes the HTTP Bridge and Oauth components. The candidate does not have to be the _go-to_ expert, but they should have a more than superficial understanding of at least one area. For example:
+    - A particular operator
+    - Some Kubernetes concern (CRDs, API, JSON Schema, and so on)
+    - Some associated bit of Kafka technology in which the project has a strategic interest (Cruise Control, for example)
+    - System tests
+    - Documentation
+* Reviewing other contributors' PRs (not just for trivial errors, such as typos, but also guiding contributors on "big picture" aspects such as the future direction of the project).
+* Contributing to different aspects of the project and community. For example it’s not enough to just implement features. We should also consider:
+    - Bug reporting, triage and fixing
+    - Addressing technical debt (in code, testing and documentation).
+    - Documentation (both content and structure).
+    - Helping users, for example on GitHub, the mailing list, Slack, Stack Overflow, and so on.
+    - Promotion of Strimzi, for example by blogging, speaking at conferences, and so on.
+* An understanding of the overall architecture/structure of the codebase.
+* Knowing when to ask for help or seek consensus (being a maintainer is not a licence to merge "at will" whatever you chose).
+* An indication of being committed to the long term success of the project.
+
 #### Github Project Administration
 
 Maintainers will be added to the collaborators list of the Strimzi repository with "Write" access.
