@@ -7,12 +7,21 @@ This document defines project governance for the Strimzi project.
 ### Maintainers
 
 The maintainers are responsible for the overall development of the whole Strimzi project and all its components.
-The maintainers are identified in the [`MAINTAINERS`](MAINTAINERS) file. 
+Emeritus maintainers are former maintainers who are no longer actively involved in the project.
+In the rest of this document the term ‘maintainer’ will be assumed to mean ‘active maintainer’, unless qualified as ‘emeritus maintainer’.
+Both maintainers and emeritus maintainers are identified in the [`MAINTAINERS`](MAINTAINERS) file. 
 
 #### Changes in Maintainership
 
 New maintainers are proposed by an existing maintainer and are elected by a ⅔ majority maintainers vote.
-Maintainers can be removed by a ⅔ majority maintainers vote.
+Maintainers can be removed by a ⅔ majority maintainers vote. 
+Maintainers removed by a vote are no longer considered maintainers or emeritus maintainers.
+Maintainers become emeritus maintainers either actively, by opening a PR against the MAINTAINERS file marking themselves as Emeritus, or implicitly after 6 months without any contribution to the project.
+Updates to the MAINTAINERS to mark implicitly Emeritus maintainers happen asynchronously (i.e. the MAINTAINERS file is not normative about Emeritus status).
+An Emeritus maintainer reverts to being an active maintainer by contributing to the project again.
+For the purposes of Emeritus status contribution means:
+* Opening or reviewing a PR to any repo in the Strimzi organization.
+* Participating in discussions with the Strimzi community in any of its venues (e.g. Slack, Email, Community call, etc.) This includes non-public participation (e.g. on the maintainers-only email list)
 
 #### Github Project Administration
 
@@ -34,7 +43,7 @@ Component owners can be removed by a ⅔ majority maintainers vote.
 
 #### Github Project Administration
 
-Owners of components which have their own GitHub repository will get "Write" rights for given GitHub repository and will be able to merge approved PRs.
+Owners of components which have their own GitHub repository will get "Write" rights for that GitHub repository and will be able to merge approved PRs.
 Owners will not get "Admin" rights on any Strimzi GitHub repositories.
 
 ## Voting
@@ -50,8 +59,8 @@ PRs may be merged after receiving at least two positive maintainer votes.
 Voting for PRs can be done using a comment in the PR or by approving (or requesting changes) the PR.
 If the PR author is a maintainer, this counts as a vote.
 
-PRs which affect only a single component can be approved by at least one positive maintainer vote and one positive vote from an owner of given component.
-If the PR author is a maintainer or an owner of given component, this counts as a vote.
+PRs which affect only a single component can be approved by at least one positive maintainer vote and one positive vote from an owner of that component.
+If the PR author is a maintainer or an owner of that component, this counts as a vote.
 
 ### Proposals
 
