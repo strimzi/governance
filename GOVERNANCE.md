@@ -17,11 +17,12 @@ New maintainers are proposed by an existing maintainer and are elected by a ⅔ 
 Maintainers can be removed by a ⅔ majority maintainers vote. 
 Maintainers removed by a vote are no longer considered maintainers or emeritus maintainers.
 Maintainers become emeritus maintainers either actively, by opening a PR against the MAINTAINERS file marking themselves as Emeritus, or implicitly after 6 months without any contribution to the project.
-Updates to the MAINTAINERS to mark implicitly Emeritus maintainers happen asynchronously (i.e. the MAINTAINERS file is not normative about Emeritus status).
-An Emeritus maintainer reverts to being an active maintainer by contributing to the project again.
-For the purposes of Emeritus status contribution means:
-* Opening or reviewing a PR to any repo in the Strimzi organization.
-* Participating in discussions with the Strimzi community in any of its venues (e.g. Slack, Email, Community call, etc.) This includes non-public participation (e.g. on the maintainers-only email list)
+An Emeritus maintainer has still access to all the Strimzi venues (e.g. Slack, Email, Community call, etc.).
+They can contribute to the project in any way which doesn't implies strong and long term commitment, as active maintainers do.
+The MAINTAINERS file may not always immediately reflect implicit emeritus status, as updates to mark maintainers as Emeritus are done asynchronously.
+An Emeritus maintainer reverts to being an active maintainer by starting a voting process.
+The voting process can also be started by an active maintainer instead.
+At least three +1 binding votes and no -1 binding votes, from active maintainers, are needed to accept the emeritus one to be considered active again.
 
 #### Github Project Administration
 
