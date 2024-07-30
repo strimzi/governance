@@ -17,6 +17,9 @@ New maintainers are proposed by an existing maintainer and are elected by a ⅔ 
 Maintainers can be removed by a ⅔ majority maintainers vote. 
 Maintainers removed by a vote are no longer considered maintainers or emeritus maintainers.
 Maintainers become emeritus maintainers either actively, by opening a PR against the MAINTAINERS file marking themselves as Emeritus, or implicitly after 6 months without any contribution to the project.
+
+### Emeritus maintainers
+
 An Emeritus maintainer has still access to all the Strimzi venues (e.g. Slack, Email, Community call, etc.).
 They can contribute to the project in any way which doesn't implies strong and long term commitment, as active maintainers do.
 The MAINTAINERS file may not always immediately reflect implicit emeritus status, as updates to mark maintainers as Emeritus are done asynchronously.
