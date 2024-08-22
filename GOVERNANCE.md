@@ -98,7 +98,7 @@ The vote should be opened for at least 7 days to give everyone enough time to vo
 
 ### Changes in Governance
 
-Changes to this document require an **Explicit majority** of **Maintainers**.
+With the exception of maintainers and component owners marking themselves as emeritus, all changes in the governance repository require an **Explicit majority** of **Maintainers**.
 
 ### Adding and removing maintainers
 
