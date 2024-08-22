@@ -61,7 +61,7 @@ If the vote succeeds:
 Component owners who wish to become emeritus simply mark the fact by opening a PR against this repository moving their name to the `EMERITUS` file.
 The process for reverting from an emeritus component owners to an active component owners is the same as for new component owners.
 
-## Voting
+## Voting rules
 
 The Strimzi project employs voting to ensure no single member can dominate the project.
 
@@ -70,12 +70,22 @@ Voters should indicate their yes/no vote on that issue or PR, and after a suitab
 
 The project uses different kinds of vote for different purposes.
 
+* PR approval votes
 * Lazy majority votes
 * Explicit majority votes
 
 Who may vote, where votes are recorded and the duration of the voting also depends on the subject of vote, as explained in the following sections.
 
-### Lazy majority votes
+#### PR approval rules
+
+PRs against most repositories may be merged after receiving at least two positive maintainer votes.
+Voting for PRs can be done using a comment in the PR or by approving (or requesting changes) the PR.
+If the PR author is a maintainer, this counts as a vote.
+
+PRs which affect only a single component can be approved by at least one positive maintainer vote and one positive vote from an owner of the given component.
+If the PR author is a maintainer or an owner of given component, this counts as a vote.
+
+### Lazy majority rules
 
 Lazy majority votes use +1, 0, -1 votes and their fractions, where:
 * +1 means "yes"
@@ -90,25 +100,27 @@ Non-binding may be cast by people not in any of those roles and do not count tow
 The vote succeeds when there are least three +1 binding votes and no -1 binding votes.
 The vote should be opened for at least 3 days to give everyone enough time to vote.
 
-### Explicit majority votes
+### Explicit majority rules
 
 An explicit majority vote is simply a +1 or -1. 
 The vote succeeds when ⅔ of cast binding votes are +1.
 The vote should be opened for at least 7 days to give everyone enough time to vote.
 
-### Changes in Governance
+### Votes
+
+#### Votes on changes to Governance
 
 With the exception of maintainers and component owners marking themselves as emeritus, all changes in the governance repository require an **Explicit majority** of **Maintainers**.
 
-### Adding and removing maintainers
+#### Votes on adding or removing maintainers
 
 Votes to adding or removing a maintainer require an **Explicit majority** of **Maintainers**.
 
-### Adding and removing component owners
+#### Votes on adding or removing component owners
 
 Votes to add or remove a component owners require an **Explicit majority** of **Maintainers**.
 
-### Proposals
+#### Votes on Proposals
 
 Proposals can be opened against the [proposals repository](https://github.com/strimzi/proposals).
 Proposals should cover any changes to the Strimzi project which might significantly impact its users or the project direction.
@@ -119,16 +131,11 @@ Approving a proposal requires a **Lazy majority** of **Maintainers**.
 +1 votes can be expressed by approving the proposal PR or in the comments.
 Other votes should be expressed in the comments. For example "+1 (binding)", or for a non-maintainer "+1 (non-binding)".
 
-### Approving PRs
+#### Votes on PRs in Other Repos
 
-PRs may be merged after receiving at least two positive maintainer votes.
-Voting for PRs can be done using a comment in the PR or by approving (or requesting changes) the PR.
-If the PR author is a maintainer, this counts as a vote.
+With the exception of the governance and proposals repositories, votes on PRs in other repositories use **PR approval rules**.
 
-PRs which affect only a single component can be approved by at least one positive maintainer vote and one positive vote from an owner of given component.
-If the PR author is a maintainer or an owner of given component, this counts as a vote.
-
-### Other Changes
+#### Votes on Other Changes
 
 Unless specified above, all other changes to the project require an **Explicit majority** of **maintainers**.
 Additionally, any maintainer may request that any change require an **Explicit majority** of **maintainers**
