@@ -27,7 +27,7 @@ Emeritus code owners and Emeritus maintainers are identified in the [`EMERITUS`]
 
 In the rest of this document the term 'maintainer' should be taken to mean 'active maintainer' unless qualified using the term 'emeritus maintainer'.
 
-#### Changes in Maintainership
+### Changes in Maintainership
 
 New maintainers are proposed by an existing maintainer and are elected by a vote (see later for the rules of this vote).
 If the vote succeeds the proposed maintainer will be invited to become a maintainer.
@@ -44,7 +44,7 @@ If the vote succeeds:
 Maintainers who wish to become emeritus simply mark the fact by opening a PR against this repository moving their name to the `EMERITUS` file.
 The process for reverting from an emeritus maintainer to an active maintainer is the same as for new maintainers.
 
-#### Changes in component ownership
+### Changes in component ownership
 
 New component owners can be proposed by any maintainer and are elected by a vote.
 If the vote succeeds the proposed component owner will be invited to become a component owner.
@@ -76,7 +76,7 @@ The project uses different kinds of vote for different purposes.
 
 Who may vote, where votes are recorded and the duration of the voting also depends on the subject of vote, as explained in the following sections.
 
-#### PR approval rules
+### PR approval rules
 
 PRs against most repositories may be merged after receiving at least two positive maintainer votes.
 Voting for PRs can be done using a comment in the PR or by approving (or requesting changes) the PR.
