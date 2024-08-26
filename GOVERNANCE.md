@@ -129,7 +129,8 @@ Approving a proposal requires a **Lazy majority** of **Maintainers**.
 *However, non-binding votes are encouraged as a signal to maintainers of the acceptability of the proposal to the wider community.*
 
 +1 votes can be expressed by approving the proposal PR or in the comments.
-Other votes should be expressed in the comments. For example "+1 (binding)", or for a non-maintainer "+1 (non-binding)".
+Other votes, with reasons, can be expressed in the comments. 
+For example "-1 (binding) because ...", or for a non-maintainer "-1 (non-binding) because ...".
 
 #### Votes on PRs in Other Repos
 
