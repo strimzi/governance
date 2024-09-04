@@ -65,8 +65,8 @@ The process for reverting from an emeritus component owner to an active componen
 
 The Strimzi project employs voting to ensure no single member can dominate the project.
 
-For formal votes, a specific statement of what is being voted on should be added to the relevant GitHub issue or PR.
-Voters should indicate their yes/no vote on that issue or PR, and after a suitable period of time, the votes will be tallied and the outcome noted.
+For formal votes, a specific statement of what is being voted on should be added to the relevant GitHub issue, PR or maintainer list email thread.
+Voters should indicate their yes/no vote on that issue, PR or thread, and after a suitable period of time, the votes will be tallied and the outcome noted.
 
 The project uses different kinds of vote for different purposes.
 
@@ -111,14 +111,17 @@ The vote should be opened for at least 7 days to give everyone enough time to vo
 #### Votes on changes to governance
 
 With the exception of maintainers and component owners marking themselves as emeritus, all changes in the governance repository require an **explicit majority** of **maintainers**.
+These votes are held on the maintainers email list.
 
 #### Votes on adding or removing maintainers
 
 Votes to add or remove a maintainer require an **explicit majority** of **maintainers**.
+These votes are held on the maintainers email list.
 
 #### Votes on adding or removing component owners
 
 Votes to add or remove a component owners require an **explicit majority** of **maintainers**.
+These votes are held on the maintainers email list.
 
 #### Votes on proposals
 
