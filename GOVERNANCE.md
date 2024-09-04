@@ -71,7 +71,7 @@ Voters should indicate their yes/no vote on that issue, PR or thread, and after 
 The project uses different kinds of vote for different purposes.
 
 * PR approval votes
-* Lazy majority votes
+* Lazy consensus votes
 * Explicit majority votes
 
 Who may vote, where votes are recorded and the duration of the voting also depends on the subject of vote, as explained in the following sections.
@@ -85,9 +85,9 @@ If the PR author is a maintainer, this counts as a vote.
 PRs which affect only a single component can be approved by at least one positive maintainer vote and one positive vote from an owner of the given component.
 If the PR author is a maintainer or an owner of given component, this counts as a vote.
 
-### Lazy majority rules
+### Lazy consensus rules
 
-Lazy majority votes use +1, 0, -1 votes and their fractions, where:
+Lazy consensus votes use +1, 0, -1 votes and their fractions, where:
 * +1 means "yes"
 * -1 means "no"
 * The numbers between +1 and -1 indicate how strongly you feel about the proposal
@@ -128,7 +128,7 @@ These votes are held on the maintainers email list.
 Proposals can be opened against the [proposals repository](https://github.com/strimzi/proposals).
 Proposals should cover any changes to the Strimzi project which might significantly impact its users or the project direction.
 
-Approving a proposal requires a **lazy majority** of **maintainers**.
+Approving a proposal requires a **lazy consensus** of **maintainers**.
 *However, non-binding votes are encouraged as a signal to maintainers of the acceptability of the proposal to the wider community.*
 
 +1 votes can be expressed by approving the proposal PR or in the comments.
