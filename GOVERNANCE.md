@@ -103,7 +103,7 @@ The vote should be opened for at least 3 days to give everyone enough time to vo
 ### Explicit majority rules
 
 An explicit majority vote is simply a +1 or -1. 
-The vote succeeds when ⅔ of cast binding votes are +1.
+The vote succeeds when at least 3 binding votes are cast and ⅔ of cast binding votes are +1.
 The vote should be opened for at least 7 days to give everyone enough time to vote.
 
 ### Votes
