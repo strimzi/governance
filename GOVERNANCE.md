@@ -2,6 +2,8 @@
 
 This document defines project governance for the Strimzi project.
 
+For information on using AI tools when contributing to Strimzi, see the [AI Contribution Policy](AI_POLICY.md).
+
 ## Project Roles
 
 For governance purposes the project recognises four roles: code owners, maintainers, emeritus code owners, and emeritus maintainers.
