@@ -24,7 +24,7 @@ AI-generated or AI-assisted content does not change this responsibility.
 ### What NOT to Do
 
 * **Do not use AI tools in commit trailers.** AI tools MUST NOT be added to `Signed-off-by`, `Co-authored-by`, `Assisted-by`, `Co-developed-by`, or similar tags in commit messages. Only humans can legally certify the [Developer Certificate of Origin (DCO)](https://developercertificate.org/). The `Signed-off-by` tag certifies that you wrote the code or otherwise have the right to submit it under the project's license. An AI tool is not a legal entity and cannot make this certification.
-* **Do not instruct AI tools to directly respond to.** When maintainers, component owners, or other contributors provide feedback on your PR, you may use AI tools to help craft responses, but you must fully understand and take ownership of what you write. Reviewers want to engage with you, not receive generic AI-generated responses. If you use AI assistance to formulate responses, ensure they genuinely reflect your understanding and that you can defend your reasoning.
+* **Do not instruct AI tools to directly respond to comments.** When maintainers, component owners, or other contributors provide feedback on your PR, you may use AI tools to help craft responses, but you must fully understand and take ownership of what you write. Reviewers want to engage with you, not receive generic AI-generated responses. If you use AI assistance to formulate responses, ensure they genuinely reflect your understanding and that you can defend your reasoning.
 * **Do not submit large AI-generated PRs.** AI tools can generate content faster than reviewers can read it. Keep PRs focused and appropriately sized. Strimzi maintainers MAY close pull requests that are too large to review effectively or where the contributor does not appear to understand the changes.
 * **Do not open multiple AI-generated PRs in rapid succession.** Submitting many PRs at once or within a few minutes overwhelms reviewers and will result in PRs being closed. Instead, focus on quality over quantity.
 * **Avoid verbose AI-generated content.** Trim down unnecessary verbosity in PR descriptions, commit messages, and code comments. Be clear, concise, and specific. Respect the time of maintainers and reviewers.
@@ -67,4 +67,4 @@ Proposals that appear to be largely AI-generated without genuine understanding o
 
 ## Questions
 
-If you have questions about this policy or are unsure whether your use of AI tools requires disclosure, please contact the maintainers.
+If you have questions about this policy or are unsure whether your use of AI tools requires disclosure, please contact the maintainers via Slack or the mailing list.
