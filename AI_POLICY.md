@@ -15,7 +15,7 @@ AI-generated or AI-assisted content does not change this responsibility.
 * **You must understand your contribution.** Do not submit code, documentation, or other content that you do not fully understand. You should be able to explain to reviewers what your contribution does, how it works, and how you verified it.
 * **Review all AI-generated content.** Before submitting, verify that the contribution is correct, tested, and follows the project's contributing guidelines.
 * **Use AI as a learning tool.** New contributors can use AI tools to understand the codebase. If you're using AI to generate code you don't understand, take time to learn the concepts before submitting.
-* **You own what you submit.** As the PR author, you are responsible for all changes, regardless of the tools used to create them.
+* **You own what you submit.** As the PR author, you are responsible for all changes, regardless of the tools used to create them, and must certify that you wrote or otherwise have the right to submit the code you are contributing by signing your commits.
 
 ### Disclosure
 
