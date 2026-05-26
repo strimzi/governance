@@ -2,6 +2,14 @@
 
 This document defines project governance for the Strimzi project.
 
+## Vendor Neutrality
+
+Strimzi is committed to the [CNCF vendor neutrality principles](https://contribute.cncf.io/maintainers/community/vendor-neutrality/), ensuring the project remains community-driven and independent of any single vendor's control.
+The project maintains contribution-based governance where any contributor can earn committer or maintainer status through merit, uses neutral infrastructure (CNCF and community platforms), and makes architectural decisions through open consensus without withholding features to favor commercial offerings.
+Significant architectural changes follow the Strimzi Proposal process, providing a transparent mechanism for all contributors and adopters to propose, discuss, and reach consensus on technical decisions regardless of vendor affiliation.
+Communications, documentation, and community events provide equal representation to all vendors and contributors, maintaining a balanced ecosystem where diverse stakeholders can participate and succeed without preferential treatment.
+In blogs, social media, and messaging platforms like Slack, Strimzi applies consistent rules of engagement across all vendors, avoiding content that favors specific companies or disparages other vendors or CNCF projects, while preventing channel spamming or unsolicited vendor solicitation.
+
 ## Project Roles
 
 For governance purposes the project recognises four roles: code owners, maintainers, emeritus code owners, and emeritus maintainers.
